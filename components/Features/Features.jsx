@@ -2,9 +2,9 @@ import Image from "next/image"
 
 const Features = () => {
     return (
-        <div className="container mx-auto mb-[40px] md:mb-[72px]">
+        <div className="container mx-auto my-[40px] md:my-[72px]">
             {/* features 1 */}
-            <div className="mb-[20px] md:mb-[100px]">
+            <div className="">
                 <div className="flex flex-wrap md:flex-nowrap  justify-between  items-center px-4 md:px-0">
                     <Image alt="hero image" src="/image 3.png" width={480} height={379} />
                     <div className="flex flex-col  items-start  justify-center ">
